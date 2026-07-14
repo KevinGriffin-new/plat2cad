@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>You're on the list — PLAT2CAD</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23FAF8F1'/%3E%3Cpolygon points='6,9 22,5 28,12 25,26 9,27' fill='none' stroke='%23D4551F' stroke-width='2.5'/%3E%3C/svg%3E">
+<script data-goatcounter="https://plat2cad.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+<style>
+  :root {
+    --paper: #FAF8F1; --paper-2: #F2EFE5; --ink: #212B36; --ink-soft: #55606B;
+    --rule: #C9C3B2; --accent: #D4551F; --accent-ink: #FFFFFF;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --paper: #12161B; --paper-2: #181D24; --ink: #E8E4D8; --ink-soft: #9AA3AC;
+            --rule: #39424C; --accent: #F0733D; --accent-ink: #16100B; }
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--paper-2); color: var(--ink);
+    font-family: Seravek, "Avenir Next", "Segoe UI", system-ui, sans-serif;
+    line-height: 1.55; padding: 20px;
+    min-height: 100vh; display: flex; align-items: center; justify-content: center;
+  }
+  .sheet {
+    max-width: 560px; background: var(--paper);
+    border: 2px solid var(--ink);
+    box-shadow: inset 0 0 0 4px var(--paper), inset 0 0 0 5px var(--rule);
+    padding: 5px;
+  }
+  .inner { border: 1px solid var(--rule); padding: 36px 34px; }
+  .tag {
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    font-size: 11px; letter-spacing: .14em; text-transform: uppercase;
+    color: var(--ink-soft); display: inline-flex; align-items: center; gap: 8px; margin-bottom: 14px;
+  }
+  .tag::before { content: ""; width: 14px; height: 3px; background: var(--accent); }
+  h1 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700; font-size: 26px; text-transform: uppercase;
+    letter-spacing: .01em; margin: 0 0 14px; text-wrap: balance;
+  }
+  p { color: var(--ink-soft); font-size: 15.5px; margin: 0 0 22px; }
+  .btn {
+    display: inline-block; text-decoration: none;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700; font-size: 14px; letter-spacing: .06em; text-transform: uppercase;
+    padding: 13px 22px; border: 2px solid var(--accent);
+    background: var(--accent); color: var(--accent-ink);
+  }
+  .btn:focus-visible { outline: 3px solid var(--ink); outline-offset: 2px; }
+  .back { display: block; margin-top: 18px; font-size: 13px; color: var(--ink-soft); }
+  .back a { color: var(--ink); }
+</style>
+</head>
+<body>
+  <div class="sheet"><div class="inner">
+    <span class="tag">LAYER: V-THANKS</span>
+    <h1>You're on the list.</h1>
+    <p>One email when the pilot opens up, plus before/after samples as they ship.
+       Got a plat sitting around in the meantime? The first sheet is free —
+       48-hour turnaround, layered DWG plus closure report back.</p>
+    <a class="btn" href="mailto:plats@plat2cad.com?subject=Pilot%20plat%20—%20first%20sheet%20free">Email your plat</a>
+    <span class="back"><a href="/">← back to plat2cad.com</a></span>
+  </div></div>
+</body>
+</html>
